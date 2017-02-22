@@ -1,7 +1,3 @@
 /Git                    export-ignore
 /GitSetup               export-ignore
 SetupForDevelopment.sh  export-ignore
-
-# Do not format third-party sources.
-/KWIML/**       -format.clang
-/cm*/**         -format.clang
