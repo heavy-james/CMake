@@ -335,9 +335,9 @@ For example:
  content.  For example, the unquoted arguments ``-Da="b c"``,
  ``-Da=$(v)``, and ``a" "b"c"d`` are each interpreted literally.
 
- Make-style references are also treated literally as part of the
- content and do not undergo variable expansion.  They are treated
- as part of a single argument (rather than as separate ``$``, ``(``,
+ Make-style references are treated literally as part of the content
+ and do not undergo variable expansion.  They are treated as part
+ of a single argument (rather than as separate ``$``, ``(``,
  ``MAKEVAR``, and ``)`` arguments).
 
  The above "unquoted_legacy" production represents such arguments.
