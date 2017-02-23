@@ -532,7 +532,7 @@ time_from_tm(struct tm *t)
 }
 
 static int la_isblank(int c) {
-  return c == ' ' || c == '\t';
+	return c == ' ' || c == '\t';
 }
 
 static time_t
